@@ -1,0 +1,32 @@
+export const sampleVideos = [
+  {
+    id: '1',
+    title: 'Amazing Dance Moves',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    username: 'dancer_pro',
+    userAvatar: 'https://via.placeholder.com/50x50/FF3040/FFFFFF?text=DP',
+    likes: 1250,
+    isLiked: false,
+    description: 'Check out these amazing dance moves! 🕺💃',
+  },
+  {
+    id: '2',
+    title: 'Cooking Tutorial',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    username: 'chef_master',
+    userAvatar: 'https://via.placeholder.com/50x50/FE2C55/FFFFFF?text=CM',
+    likes: 890,
+    isLiked: false,
+    description: 'Easy 5-minute recipe! Try it at home 🍳👨‍🍳',
+  },
+  {
+    id: '3',
+    title: 'Travel Vlog',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    username: 'travel_bug',
+    userAvatar: 'https://via.placeholder.com/50x50/25D366/FFFFFF?text=TB',
+    likes: 2140,
+    isLiked: false,
+    description: 'Beautiful sunset at Santorini 🌅✈️ #travel',
+  },
+];
