@@ -2,6 +2,7 @@
   "expo": {
     "name": "STRMLY-assesment",
     "slug": "STRMLY-assesment",
+    "scheme": "com.strmly.assessment",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,11 +14,14 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "bundleIdentifier": "com.strmly.assessment",
       "supportsTablet": true
     },
     "android": {
+       "package": "com.strmly.assessment",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
+        
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
